@@ -15,7 +15,7 @@ export default function Home({ peliculas }) {
       <Container>
         <GridPeliculas>
           {peliculas.Search?.map((el) => (
-            <div className="pelicula" key={el.imdbID}>
+            <div className="pelicula" style={{cursor:"pointer"}} key={el.imdbID}>
               <img
                 loading="lazy"
                 onClick={() => Router.push(`/peliculas/${el.imdbID}`)}

@@ -23,7 +23,7 @@ const Pelicula = ({ item }) => {
         <button onClick={()=>Router.push("/")} type="button" className="btn btn-outline-danger boton-atras">Volver atrás</button>
       </Header>
       <PeliculaContainer>
-        <PeliculaItem style={{cursor:"pointer"}}>
+        <PeliculaItem >
           <h1>{item.Title}</h1>
           <img src={`${item.Poster}`} />
           <div className="pelicula__feature autors">
