@@ -19,5 +19,13 @@
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkp0lx/NextJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/darkp0lx/NextJs/issues"
+  },
+  "homepage": "https://github.com/darkp0lx/NextJs#readme",
   "description": ""
 }
